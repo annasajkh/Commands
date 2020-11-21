@@ -1,6 +1,4 @@
-# Commands
-
-|command|type|range|example|result
+|#command|#type|#range|#example|#result
 |:---:|:---:|:---:|:---:|:---:|
 |rotate=value|number|-360 to 360|rotate=45|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnVtnJWXYAA2N8i?format=png&name=240x240)
 |crop=x;y;width;height|number;number;number;number|-|crop=0;0;100;100|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV0WwxWEAAzQOi?format=png&name=120x120)
@@ -16,3 +14,7 @@ grayscale=value|boolean|true|grayscale=true|![alt text](https://pbs.twimg.com/me
 invert=value|boolean|true|invert=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV6hTDW8AAVrD3?format=png&name=240x240)
 contrast=value|number|-1000 to 1000|contrast=200|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV7AuKXUAAekD9?format=png&name=240x240)
 solarize=value|number|-100 to 100|solarize=50|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV7bO9W8AAVN99?format=png&name=240x240)
+edges=value|string|true|edges=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV8C-xXIAc9JPl?format=png&name=240x240)
+repeat=h_count;v_count|number;number|-|repeat=5;3|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV8hilW4AMFxrK?format=png&name=240x240)
+resize=width;height|number;number|0 - 8192;0 - 8192 (if the image is too large it may not work)|resize=1000;100|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV86ZIXUAE28yK?format=jpg&name=small)
+brightness=value|number|0 - 100|brightness=50|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV9ZoRXEAEK02B?format=png&name=240x240)
