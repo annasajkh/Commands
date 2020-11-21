@@ -12,3 +12,7 @@ median=value|number|0 - 17 (must be odd number)|median=17|![alt text](https://pb
 contour=value|boolean|true|contour=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV4AloXMAgnSV1?format=png&name=240x240)
 enhance=value|boolean|true|enhance=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV5MMPXUAAbtVz?format=png&name=240x240)
 emboss=value|boolean|true|emboss=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV5tU-W8AEt6bo?format=png&name=240x240)
+grayscale=value|boolean|true|grayscale=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV6QPVXYAUZ0Sd?format=png&name=240x240)
+invert=value|boolean|true|invert=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV6hTDW8AAVrD3?format=png&name=240x240)
+contrast=value|number|-1000 to 1000|contrast=200|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV7AuKXUAAekD9?format=png&name=240x240)
+solarize=value|number|-100 to 100|solarize=50|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV7bO9W8AAVN99?format=png&name=240x240)
