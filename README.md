@@ -28,5 +28,6 @@ roll=number|number|0 - 80|roll=50|![alt text](https://pbs.twimg.com/media/EnVtlO
 glitch=value|boolean|true|glitch=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCR33XMAAMN7t?format=png&name=240x240)
 
 you can also chain command
-rotate=45,grayscale=true,repeat=10;10
-![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCq7xW4AEen8B?format=png&name=240x240)
+|**command**|**result**
+|:---:|:---:|
+rotate=45,grayscale=true,repeat=10;10|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCq7xW4AEen8B?format=png&name=240x240)
