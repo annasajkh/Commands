@@ -1,3 +1,5 @@
+commands for twitter bot @ImageEditBot
+
 |**command**|**type**|**range**|**example**|**result**
 |:---:|:---:|:---:|:---:|:---:|
 |rotate=value|number|-360 to 360|rotate=45|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnVtnJWXYAA2N8i?format=png&name=240x240)
@@ -22,3 +24,9 @@ blend=alpha|number| 0.0 to 1.0 (target image must be 2 or more and number must b
 pixel=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|pixel = 0 if pixel < 110 else pixel|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV_7XfWEAI7yGy?format=png&name=240x240)
 hue=value|number|-|hue=100|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWAuN1W4AAyzdX?format=png&name=240x240)
 wave=value;value|number;number|-|wave=5;5|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWBGUkXEAACnUq?format=png&name=240x240)
+roll=number|number|0 - 80|roll=50|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWB9TGXcAMIddK?format=png&name=240x240)
+glitch=value|boolean|true|glitch=true|![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCR33XMAAMN7t?format=png&name=240x240)
+
+you can also chain command
+rotate=45,grayscale,repeat=10;10
+![alt text](https://pbs.twimg.com/media/EnVtlOaXMAgC4Wd?format=jpg&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCq7xW4AEen8B?format=png&name=240x240)
