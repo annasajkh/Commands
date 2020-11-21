@@ -1,2 +1,4 @@
 # Commands
-commands for ImageEditBot
+
+|Command|type|range|
+|---|---|---|
