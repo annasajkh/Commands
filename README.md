@@ -21,12 +21,13 @@ repeat=h_count;v_count|number;number|-|repeat=5;3|![alt text](https://pbs.twimg.
 resize=width;height|number;number|0 - 8192;0 - 8192 (if the image is too large it may not work)|resize=1000;100|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV86ZIXUAE28yK?format=jpg&name=small)
 brightness=value|number|0 - 100|brightness=50|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV9ZoRXEAEK02B?format=png&name=240x240)
 blend=alpha|number| 0.0 to 1.0 (target image must be 2 or more and number must be floating point number)|blend=0.5|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV-rGcW8AYaZPM?format=jpg&name=360x360) ![alt text](https://pbs.twimg.com/media/EnV-vm4XEAgLSSM?format=png&name=240x240)
-r=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|r = 0 if r < 110 else r|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV_7XfWEAI7yGy?format=png&name=240x240)
-g=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|g = 0 if g < 110 else g|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV_7XfWEAI7yGy?format=png&name=240x240)
-b=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|b = 0 if b < 110 else b|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV_7XfWEAI7yGy?format=png&name=240x240)
+r=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|r = 0 if r < 110 else r|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) 
+g=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|g = 0 if g < 110 else g|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) 
+b=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|b = 0 if b < 110 else b|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) 
 hue=value|number|-|hue=100|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWAuN1W4AAyzdX?format=png&name=240x240)
 wave=value;value|number;number|-|wave=5;5|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWBGUkXEAACnUq?format=png&name=240x240)
 glitch=value|boolean or number|true or 0 to 80|glitch=true|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCR33XMAAMN7t?format=png&name=240x240)
+pixel=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|pixel = 0 if pixel < 110 else b|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV_7XfWEAI7yGy?format=png&name=240x240)
 
 you can also chain command
 |**command**|**result**
