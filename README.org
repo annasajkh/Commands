@@ -2,14 +2,14 @@
 
 |-------------------------------------------------------------------+--------------------------------+-----------------------+---------------------------------+-------------------------|
 | Command                                                           | Argument Types                 | Range                 | Example                         | Result                  |
-| rotate=value                                                      | number                         | -360 to 360           | rotate=46                       | [[./images/rotate.png]]     |
+| rotate=value                                                      | number                         | -360 to 360           | rotate=45                       | [[./images/rotate.png]]     |
 | crop=x_percentage;y_percentage;width_percentage;height_percentage | number;number;number;number    | -                     | crop=0;0;20;20                  | [[./images/crop.png]]       |
 | flip=value                                                        | string                         | v/h                   | flip=v                          | [[./images/flip.png]]       |
 | the_text;x;y;font_size                                            | string;number;number;number    | -                     | text=Hello;200;50;50            | No Image                |
 | min=value                                                         | number                         | 0 to 17 (odd)         | min=17                          | [[./images/min.png]]        |
 | max=value                                                         | number                         | 0 to 17 (odd)         | max=17                          | [[./images/max.png]]        |
 | median=value                                                      | number                         | 0 to 17 (odd)         | median=17                       | [[./images/median.png]]     |
-| contour=value                                                     | boolean                        | true                  | contour=true                    | [[./images/countour.png]]   |
+| contour=value                                                     | boolean                        | true                  | contour=true                    | [[./images/contour.png]]    |
 | enhance=value                                                     | boolean                        | true                  | enhance=true                    | [[./images/enhance.png]]    |
 | emboss=value                                                      | boolean                        | true                  | emboss=true                     | [[./images/emboss.png]]     |
 | grayscale=value                                                   | boolean                        | true                  | grayscale=true                  | [[./images/grayscale.png]]  |
@@ -18,7 +18,7 @@
 | solarize=value                                                    | number                         | -100 to 100           | solarize=50                     | [[./images/solarize.png]]   |
 | edges=value                                                       | string                         | true                  | edges=true                      | [[./images/edges.png]]      |
 | repeat=h_count;v_count                                            | number;number                  | -                     | repeat=5;3                      | [[./images/repeat.png]]     |
-| resize=width;height                                               | number;number                  | 0 to 8192 for both    | resize=1000;100                 | [[./images/resize.jpe]]     |
+| resize=width;height                                               | number;number                  | 0 to 8192 for both    | resize=1000;100                 | [[./images/resize.png]]     |
 | brightness=value                                                  | number                         | 0 to 100              | brightness=50                   | [[./images/brightness.png]] |
 | blend=alpha                                                       | number                         | 0.0 to 1.0            | blend=0.5                       | [[./images/blend.png]]      |
 | r=expression                                                      | number and string (simpleeval) | -                     | r = 0 if r < 110 else r         | [[./images/r.png]]          |
@@ -28,9 +28,9 @@
 | hue=value                                                         | number                         | -                     | hue=100                         | [[./images/hue.png]]        |
 | wave=value;value                                                  | number;number                  | -                     | wave=5;5                        | [[./images/wave.png]]       |
 | glitch=value                                                      | boolean or number              | true or 0 to 80       | glitch=true                     | [[./images/glitch.png]]     |
-| mirror=value                                                      | string                         | top/bottom/left/right | mirror=right                    | [[./images/mirror.png]]     |
+| mirror=value                                                      | string                         | top/bottom/left/right | mirror=right                    | No image                |
 
 * Chaining Commands 
 To chain commands, separate them by commas
-| Command                               | Result |
+| Command                               | Result             |
 | rotate=45,grayscale=true,repeat=10;10 | [[./images/chain.png]] |
