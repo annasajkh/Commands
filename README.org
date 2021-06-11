@@ -1,3 +1,27 @@
-|--------------+----------------+-----------------+-----------+--------------------------|
-| Command      | Argument Types | Argument Values | Example   | Result                   |
-| rotate=value | number         | -360 to 360     | rotate=45 | [[./images/rotate.png]]      |
+| Command                                                           | Argument Types              | Argument Values             | Example        | Result               |               |
+| crop=x_percentage,y_percentage,width_percentage,height_percentage | number;number;number;number | -                           | crop=0;0;20;20 | alt                  | text          |
+| flip=value                                                        | string                      | v                           | or             | h                    | flip=v        |
+| text                                                              | the_text;x;y;font_size      | string;number;number;number | -              | text=Hello;200;50;50 | alt           |
+| min=value                                                         | number                      | 0                           | -              | 17                   | (must         |
+| max=value                                                         | number                      | 0                           | -              | 17                   | (must         |
+| median=value                                                      | number                      | 0                           | -              | 17                   | (must         |
+| contour=value                                                     | boolean                     | true                        | contour=true   | alt                  | text          |
+| enhance=value                                                     | boolean                     | true                        | enhance=true   | alt                  | text          |
+| emboss=value                                                      | boolean                     | true                        | emboss=true    | alt                  | text          |
+| grayscale=value                                                   | boolean                     | true                        | grayscale=true | alt                  | text          |
+| invert=value                                                      | boolean                     | true                        | invert=true    | alt                  | text          |
+| contrast=value                                                    | number                      | -1000                       | to             | 1000                 | contrast=200  |
+| solarize=value                                                    | number                      | -100                        | to             | 100                  | solarize=50   |
+| edges=value                                                       | string                      | true                        | edges=true     | alt                  | text          |
+| repeat=h_count;v_count                                            | number;number               | -                           | repeat=5;3     | alt                  | text          |
+| resize=width;height                                               | number;number               | 0                           | -              | 8192;0               | -             |
+| brightness=value                                                  | number                      | 0                           | -              | 100                  | brightness=50 |
+| blend=alpha                                                       | number                      | 0.0                         | to             | 1.0                  | (target       |
+| r=expression                                                      | number                      | and                         | string         | (the                 | expression    |
+| g=expression                                                      | number                      | and                         | string         | (the                 | expression    |
+| b=expression                                                      | number                      | and                         | string         | (the                 | expression    |
+| hue=value                                                         | number                      | -                           | hue=100        | alt                  | text          |
+| wave=value;value                                                  | number;number               | -                           | wave=5;5       | alt                  | text          |
+| glitch=value                                                      | boolean                     | or                          | number         | true                 | or            |
+| pixel=expression                                                  | number                      | and                         | string         | (the                 | expression    |
+| mirror=value                                                      | string                      | top                         | or             | bottom               | or            |
