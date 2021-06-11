@@ -1,1 +1,1 @@
-[[file://images/rotate.png]]
+[[./images/rotate.png]]
