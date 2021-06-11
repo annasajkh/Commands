@@ -6,6 +6,6 @@ You don't need to learn Org before using Org: read the quickstart
 page and you should be good to go.  If you need more, Org will be
 here for you as well: dive into the manual and join the community!
     
-** Feedback
+*** Feedback
 
 #+include: "other/feedback.org*manual" :only-contents t
