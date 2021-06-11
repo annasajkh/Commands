@@ -1,1 +1,3 @@
-[[file://images/rotate.png]]
+|--------------+----------------+-----------------+-----------+--------------------------|
+| Command      | Argument Types | Argument Values | Example   | Result                   |
+| rotate=value | number         | -360 to 360     | rotate=45 | [[file://images/rotate.png]] |
