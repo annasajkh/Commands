@@ -28,8 +28,10 @@ hue=value|number|-|hue=100|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4
 wave=value;value|number;number|-|wave=5;5|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWBGUkXEAACnUq?format=png&name=240x240)
 glitch=value|boolean or number|true or 0 to 80|glitch=true|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCR33XMAAMN7t?format=png&name=240x240)
 pixel=expression|number and string (the expression uses https://github.com/danthedeckie/simpleeval)|-|pixel = 0 if pixel < 110 else b|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnV_7XfWEAI7yGy?format=png&name=240x240)
+mirror=value|string|top or bottom or left or right|mirror=right|
 
-you can also chain command
+
+you can also chains command
 |**command**|**result**
 |:---:|:---:|
 rotate=45,grayscale=true,repeat=10;10|![alt text](https://pbs.twimg.com/media/EnV0QUKXUAMj4RB?format=png&name=240x240) ![alt text](https://pbs.twimg.com/media/EnWCq7xW4AEen8B?format=png&name=240x240)
